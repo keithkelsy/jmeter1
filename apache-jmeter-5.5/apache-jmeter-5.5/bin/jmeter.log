@@ -1,0 +1,129 @@
+2023-09-14 10:47:00,854 INFO o.a.j.u.JMeterUtils: Setting Locale to es_CO
+2023-09-14 10:47:00,916 INFO o.a.j.u.JMeterUtils: Could not find resources for 'es_CO', using 'es'
+2023-09-14 10:47:00,918 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2023-09-14 10:47:00,920 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2023-09-14 10:47:00,930 INFO o.a.j.JMeter: Copyright (c) 1998-2022 The Apache Software Foundation
+2023-09-14 10:47:00,930 INFO o.a.j.JMeter: Version 5.5
+2023-09-14 10:47:00,930 INFO o.a.j.JMeter: java.version=11.0.18
+2023-09-14 10:47:00,930 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2023-09-14 10:47:00,930 INFO o.a.j.JMeter: os.name=Windows 10
+2023-09-14 10:47:00,930 INFO o.a.j.JMeter: os.arch=amd64
+2023-09-14 10:47:00,930 INFO o.a.j.JMeter: os.version=10.0
+2023-09-14 10:47:00,930 INFO o.a.j.JMeter: file.encoding=Cp1252
+2023-09-14 10:47:00,930 INFO o.a.j.JMeter: java.awt.headless=null
+2023-09-14 10:47:00,930 INFO o.a.j.JMeter: Max memory     =8520728576
+2023-09-14 10:47:00,930 INFO o.a.j.JMeter: Available Processors =8
+2023-09-14 10:47:00,948 INFO o.a.j.JMeter: Default Locale=español (Colombia)
+2023-09-14 10:47:00,949 INFO o.a.j.JMeter: JMeter  Locale=español (Colombia)
+2023-09-14 10:47:00,949 INFO o.a.j.JMeter: JMeterHome=C:\JMETER\apache-jmeter-5.0
+2023-09-14 10:47:00,949 INFO o.a.j.JMeter: user.dir  =C:\JMETER\apache-jmeter-5.0\bin
+2023-09-14 10:47:00,950 INFO o.a.j.JMeter: PWD       =C:\JMETER\apache-jmeter-5.0\bin
+2023-09-14 10:47:00,952 INFO o.a.j.JMeter: IP: 192.168.0.110 Name: pb0b0915396 FullName: pb0b0915396.bancolombia.corp
+2023-09-14 10:47:00,975 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2023-09-14 10:47:01,281 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: laf:com.sun.java.swing.plaf.windows.WindowsLookAndFeel
+2023-09-14 10:47:12,893 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-09-14 10:47:12,894 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-09-14 10:47:12,894 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-09-14 10:47:12,895 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-09-14 10:47:12,895 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2023-09-14 10:47:12,895 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2023-09-14 10:47:13,170 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2023-09-14 10:47:13,195 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2023-09-14 10:47:13,198 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2023-09-14 10:47:13,294 WARN o.a.j.g.u.MenuFactory: Could not instantiate class: com.blazemeter.jmeter.rte.recorder.RTERecorderGui
+java.lang.reflect.InvocationTargetException: null
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:490) ~[?:?]
+	at org.apache.jmeter.gui.util.MenuFactory.getGUIComponent(MenuFactory.java:207) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.gui.util.MenuFactory.initializeMenus(MenuFactory.java:151) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.gui.util.MenuFactory.<clinit>(MenuFactory.java:107) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.control.gui.TestPlanGui.createPopupMenu(TestPlanGui.java:94) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.gui.tree.JMeterTreeNode.createPopupMenu(JMeterTreeNode.java:184) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.gui.action.EditCommand.doAction(EditCommand.java:46) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.gui.action.ActionRouter.performAction(ActionRouter.java:87) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.gui.action.ActionRouter.lambda$actionPerformed$0(ActionRouter.java:69) ~[ApacheJMeter_core.jar:5.5]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313) ~[?:?]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:721) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:715) ~[?:?]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85) ~[?:?]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:740) ~[?:?]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:117) ~[?:?]
+	at java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:190) ~[?:?]
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:235) ~[?:?]
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:233) ~[?:?]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:?]
+	at java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:233) ~[?:?]
+	at java.awt.Dialog.show(Dialog.java:1070) ~[?:?]
+	at java.awt.Component.show(Component.java:1716) ~[?:?]
+	at java.awt.Component.setVisible(Component.java:1663) ~[?:?]
+	at java.awt.Window.setVisible(Window.java:1031) ~[?:?]
+	at java.awt.Dialog.setVisible(Dialog.java:1005) ~[?:?]
+	at org.apache.jmeter.SplashScreen.lambda$showScreen$0(SplashScreen.java:95) ~[ApacheJMeter_core.jar:5.5]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313) ~[?:?]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:721) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:715) ~[?:?]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85) ~[?:?]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:740) ~[?:?]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) ~[?:?]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90) ~[?:?]
+Caused by: java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 56
+	at java.lang.String.checkBoundsBeginEnd(String.java:3319) ~[?:?]
+	at java.lang.String.substring(String.java:1874) ~[?:?]
+	at com.blazemeter.jmeter.rte.recorder.RTERecorderGui.getJMeterBinDirPath(RTERecorderGui.java:64) ~[jmeter-bzm-rte-3.2.2.jar:?]
+	at com.blazemeter.jmeter.rte.recorder.RTERecorderGui.<init>(RTERecorderGui.java:32) ~[jmeter-bzm-rte-3.2.2.jar:?]
+	... 46 more
+2023-09-14 10:48:15,553 INFO o.a.j.s.FileServer: Default base='C:\JMETER\apache-jmeter-5.0\bin'
+2023-09-14 10:48:15,556 INFO o.a.j.g.a.Load: Loading file: C:\apache-jmeter-5.0\bin\SC_Real_Time_Save.jmx
+2023-09-14 10:48:15,556 INFO o.a.j.s.FileServer: Set new base='C:\apache-jmeter-5.0\bin'
+2023-09-14 10:48:15,556 INFO o.a.j.s.SaveService: Loading file: C:\apache-jmeter-5.0\bin\SC_Real_Time_Save.jmx
+2023-09-14 10:48:15,593 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2023-09-14 10:48:15,593 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2023-09-14 10:48:15,593 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2023-09-14 10:48:15,593 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2023-09-14 10:48:15,918 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2023-09-14 10:48:16,853 INFO o.a.j.s.FileServer: Set new base='C:\apache-jmeter-5.0\bin'
+2023-09-14 10:48:45,822 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-09-14 10:48:45,829 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-09-14 10:48:45,830 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-09-14 10:48:45,830 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2023-09-14 10:48:45,830 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2023-09-14 10:48:46,359 INFO o.a.j.v.b.BackendListener: Backend Listener: Starting worker with class: class io.github.delirius325.jmeter.backendlistener.elasticsearch.ElasticsearchBackendClient and queue capacity: 5000
+2023-09-14 10:48:46,361 INFO o.a.j.v.b.BackendListener: Backend Listener: Started  worker with class: class io.github.delirius325.jmeter.backendlistener.elasticsearch.ElasticsearchBackendClient
+2023-09-14 10:48:52,501 ERROR i.g.d.j.b.e.ElasticsearchBackendClient: Error with node: [host=https://vpc-elk-transversal-emma-pdn-37g4dk5lhowskg7np24xi7o4fu.us-east-1.es.amazonaws.com:443]
+2023-09-14 10:48:52,503 INFO i.g.d.j.b.e.ElasticSearchMetricSender: Index already exists!
+2023-09-14 10:48:57,529 ERROR i.g.d.j.b.e.ElasticsearchBackendClient: Error with node: [host=https://vpc-elk-transversal-emma-pdn-37g4dk5lhowskg7np24xi7o4fu.us-east-1.es.amazonaws.com:443]
+2023-09-14 10:48:57,530 ERROR i.g.d.j.b.e.ElasticSearchMetricSender: Exceptionjava.net.ConnectException: Timeout connecting to [vpc-elk-transversal-emma-pdn-37g4dk5lhowskg7np24xi7o4fu.us-east-1.es.amazonaws.com/10.103.80.243:443]
+2023-09-14 10:48:57,530 ERROR i.g.d.j.b.e.ElasticSearchMetricSender: ElasticSearch Backend Listener was unable to perform request to the ElasticSearch engine. Check your JMeter console for more info.
+2023-09-14 10:48:57,531 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-09-14 10:48:57,643 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Performancetest
+2023-09-14 10:48:57,644 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Performancetest.
+2023-09-14 10:48:57,644 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-14 10:48:57,644 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-09-14 10:48:57,649 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-09-14 10:48:57,649 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-09-14 10:48:57,650 INFO o.a.j.t.JMeterThread: Thread started: Performancetest 1-1
+2023-09-14 10:49:29,273 ERROR i.g.d.j.b.e.ElasticsearchBackendClient: Error with node: [host=https://vpc-elk-transversal-emma-pdn-37g4dk5lhowskg7np24xi7o4fu.us-east-1.es.amazonaws.com:443]
+2023-09-14 10:49:29,273 ERROR i.g.d.j.b.e.ElasticSearchMetricSender: Exceptionjava.net.ConnectException: Timeout connecting to [vpc-elk-transversal-emma-pdn-37g4dk5lhowskg7np24xi7o4fu.us-east-1.es.amazonaws.com/10.103.80.243:443]
+2023-09-14 10:49:29,274 ERROR i.g.d.j.b.e.ElasticSearchMetricSender: Elastic Search Request End Point: /curiosity_performance_dashboard/SampleResult/_bulk
+2023-09-14 10:49:29,274 ERROR i.g.d.j.b.e.ElasticSearchMetricSender: ElasticSearch Backend Listener was unable to perform request to the ElasticSearch engine. Check your JMeter console for more info.
+2023-09-14 10:49:54,081 ERROR i.g.d.j.b.e.ElasticsearchBackendClient: Error with node: [host=https://vpc-elk-transversal-emma-pdn-37g4dk5lhowskg7np24xi7o4fu.us-east-1.es.amazonaws.com:443]
+2023-09-14 10:49:54,082 ERROR i.g.d.j.b.e.ElasticSearchMetricSender: Exceptionjava.net.SocketTimeoutException: 1.000 milliseconds timeout on connection http-outgoing-0 [ACTIVE]
+2023-09-14 10:49:54,082 ERROR i.g.d.j.b.e.ElasticSearchMetricSender: Elastic Search Request End Point: /curiosity_performance_dashboard/SampleResult/_bulk
+2023-09-14 10:49:54,082 ERROR i.g.d.j.b.e.ElasticSearchMetricSender: ElasticSearch Backend Listener was unable to perform request to the ElasticSearch engine. Check your JMeter console for more info.
+2023-09-14 10:51:58,090 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Performancetest 1-1
+2023-09-14 10:51:58,090 INFO o.a.j.t.JMeterThread: Thread finished: Performancetest 1-1
+2023-09-14 10:51:58,091 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-09-14 10:51:58,105 INFO o.a.j.v.b.BackendListener: Worker ended
+2023-09-14 10:51:58,396 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
